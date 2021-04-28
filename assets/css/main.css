@@ -3009,12 +3009,16 @@ input, select, textarea {
 		}
 
 		.spotlights > section > .image {
-			background-position: center center;
-			background-size: cover;
+			/* background-position: center center; */
+			background-size: contain;
 			border-radius: 0;
+			background-repeat: no-repeat;
 			display: block;
 			position: relative;
-			width: 25em;
+			/* padding: 29px; */
+			width: 13em;
+			padding: 15px;
+			background-origin: content-box;
 		}
 
 			.spotlights > section > .image img {
@@ -3039,7 +3043,7 @@ input, select, textarea {
 			}
 
 		.spotlights > section > .content {
-			padding: 4em 5em 2em 5em ;
+			padding: 4em 5em 2em 1em ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -3879,10 +3883,10 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-image: url("images/Yogesh2.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 100%;
 	}
 
 		#intro p {
@@ -3915,4 +3919,26 @@ input, select, textarea {
 
 		.noHover{
 			pointer-events: none;
+		}
+
+		.h1-name{
+			background-color: #312450;
+			/* font-weight: bold; */
+			border-radius: 46px;
+			/* width: 100%; */
+			/* height: auto; */
+			padding: 15px 40px 15px 40px;
+			/* font-size: 18px; */
+			display: inline;
+		}
+
+		.intro{
+			background-color: #312450;
+			/* font-weight: bold; */
+			border-radius: 46px;
+			/* width: 100%; */
+			/* height: auto; */
+			padding: 15px 40px 15px 40px;
+			/* font-size: 18px; */
+			display: inline;
 		}
