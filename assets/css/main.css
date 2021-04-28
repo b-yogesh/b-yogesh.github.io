@@ -3924,7 +3924,7 @@ input, select, textarea {
 		.h1-name{
 			background-color: #312450;
 			/* font-weight: bold; */
-			border-radius: 46px;
+			border-radius: 40px;
 			/* width: 100%; */
 			/* height: auto; */
 			padding: 15px 40px 15px 40px;
@@ -3935,7 +3935,7 @@ input, select, textarea {
 		.intro{
 			background-color: #312450;
 			/* font-weight: bold; */
-			border-radius: 46px;
+			border-radius: 40px;
 			/* width: 100%; */
 			/* height: auto; */
 			padding: 15px 40px 15px 40px;
